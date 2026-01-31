@@ -1,4 +1,4 @@
-# UnitySoftbotsTeleopRelease
+# Alterego Teleoperation in Unity
 
 Repository for the Unity-based SoftBots teleoperation system release.
 
@@ -36,7 +36,7 @@ The system leverages Meta's Movement SDK to automatically calibrate by calculati
 
 1. Clone this repository:
    ```
-   git clone https://github.com/IIT-SoftBots/UnitySoftbotsTeleopRelease.git
+   git clone https://github.com/IIT-SoftBots/alterego_teleoperation_unity.git
    ```
 
 2. Open the project with Unity Hub by selecting the cloned folder
