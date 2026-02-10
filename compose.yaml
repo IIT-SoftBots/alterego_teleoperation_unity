@@ -1,0 +1,13 @@
+
+services:
+  zed-streamer:
+    image: stereolabs/zed:5.1-runtime-cuda13.0-ubuntu24.04
+    #runtime: nvidia
+    # environment:
+    #   - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - ./zed_sdk_streamer.py:/zed_sdk_streamer.py
+    working_dir: /app
+    command: python3 /zed_sdk_streamer.py
+    stdin_open: true
+    tty: true

@@ -1,3 +1,0 @@
-Info: Render API: 4
-Info: Render API: 2
-Info: Render API: 2
